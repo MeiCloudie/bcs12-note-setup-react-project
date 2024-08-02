@@ -2,12 +2,6 @@
 
 _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 
-<div align="center">
-	<picture>
-		<img loading="lazy" width="50%" src="./image/banner-cybersoft-course.png" alt="Banner">
-	</picture>
-</div>
-
 - [React Vite](#-react-vite)
 - [Git](#-git)
 - [TaiwindCSS](#-taiwindCSS)
