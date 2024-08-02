@@ -187,7 +187,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 ## Redux Toolkit
 
-1. Sử dụng câu lệnh tại các packages:
+1. Sử dụng câu lệnh tải các packages:
 
 ```bash
 npm install @reduxjs/toolkit react-redux
@@ -560,6 +560,6 @@ export default App
 
 <hr />
 
-> README này sẽ còn Update thêm! Thấy hay thì liên hệ mình "ting ting" buy me a coofee nhooo ([Facebook Mei nè](https://www.facebook.com/ttvan1242/))
+> README này sẽ còn Update thêm! Thấy hay thì liên hệ mình "ting ting" buy me a coffee nhooo ([Facebook Mei nè](https://www.facebook.com/ttvan1242/))
 
 # Yay Happy Coding ❤️
