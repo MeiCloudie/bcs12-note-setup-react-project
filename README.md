@@ -2,17 +2,17 @@
 
 _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 
-- [React Vite](#-react-vite)
-- [Git](#-git)
-- [TaiwindCSS](#-taiwindCSS)
-- [React Router Dom](#-react-router-dom)
-- [Redux Toolkit](#-redux-toolkit)
-- [Axios](#-axios)
-- [Formik Yup](#-formik-yup)
-- [Ant Design](#-ant-design)
-- [Fontawesome](#-fontawesome)
-- [Lottie React](#-lottie-react)
-- [Complete Setup Package Json](#-complete-setup-package-json)
+- [React Vite](#react-vite)
+- [Git](#git)
+- [TaiwindCSS](#taiwindCSS)
+- [React Router Dom](#react-router-dom)
+- [Redux Toolkit](#redux-toolkit)
+- [Axios](#axios)
+- [Formik Yup](#formik-yup)
+- [Ant Design](#ant-design)
+- [Fontawesome](#fontawesome)
+- [Lottie React](#lottie-react)
+- [Complete Setup Package Json](#complete-setup-package-json)
 
 ## React Vite
 
