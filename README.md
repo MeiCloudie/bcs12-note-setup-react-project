@@ -558,6 +558,8 @@ export default App
 
 - Lưu ý: Vẫn phải cập nhật các code Provider hoặc các phần Import đặc trưng của từng package. Chứ KHÔNG phải chỉ tải các **dependencies** này là chạy được. Nhớ check lại từng đoạn Code mẫu bên trên để biết cách SetUp.
 
+- Source Code mẫu mình sẽ để ở Thư Mục `example-project` tại repo này nha!
+
 <hr />
 
 > README này sẽ còn Update thêm! Thấy hay thì liên hệ mình "ting ting" buy me a coffee nhooo ([Facebook Mei nè](https://www.facebook.com/ttvan1242/))
