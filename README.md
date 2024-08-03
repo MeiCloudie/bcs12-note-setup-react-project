@@ -5,7 +5,7 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 - [Overview](#overview)
 - [React Vite](#react-vite)
 - [Git](#git)
-- [TaiwindCSS](#taiwindCSS)
+- [TailwindCSS](#tailwindcss)
 - [React Router Dom](#react-router-dom)
 - [Redux Toolkit](#redux-toolkit)
 - [Axios](#axios)
@@ -155,7 +155,7 @@ git init
 
 2. Các bước sử dụng Git với GitHub để lưu trữ Source Code tham khảo "CÁC CÂU LỆNH THỰC HÀNH" tại: https://github.com/MeiCloudie/demo_git/blob/master/README.md
 
-## TaiwindCSS
+## TailwindCSS
 
 1. Sử dụng câu lệnh tải packages:
 
