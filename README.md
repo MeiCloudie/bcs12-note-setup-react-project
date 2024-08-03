@@ -2,6 +2,7 @@
 
 _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 
+- [Overview](#overview)
 - [React Vite](#react-vite)
 - [Git](#git)
 - [TaiwindCSS](#taiwindCSS)
@@ -13,6 +14,52 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 - [Fontawesome](#fontawesome)
 - [Lottie React](#lottie-react)
 - [Complete Setup Package Json](#complete-setup-package-json)
+
+## Overview
+
+- Khi xây dựng một dự án với React, ta cần xác định các yếu tố như sau:
+
+1. Môi trường xây dựng cùng React:
+
+   - [NodeJS](https://nodejs.org/en)
+   - [Vite](https://vitejs.dev/)
+
+2. Version Control System - Dùng để lưu trữ Source Code:
+
+   - Git
+   - GitHub
+
+3. Ngôn ngữ đi kèm với React:
+
+   - JavaScript
+   - hoặc có thể là TypeScript
+
+4. Route Management:
+
+   - React Router Dom
+
+5. State Management:
+
+   - Redux
+   - Redux Toolkit
+
+6. HTTP Request:
+
+   - API
+   - Axios
+
+7. Form Management:
+
+   - Formik
+   - Yup
+
+8. Các thư viện hỗ trợ về UI:
+   - UI component library: Ant Design
+   - Hỗ trợ CSS (hoặc SASS): TailwindCSS
+   - Bộ icon: Fontawesome
+   - Bộ animation động: Lottie
+
+> Bên trên là các Ví Dụ về các môi trường và thư viện trong từng yếu tố, bạn có thể tham khảo thêm một số thư viện khác tương tự, sao cho phù hợp với dự án của bạn.
 
 ## React Vite
 
