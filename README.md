@@ -58,6 +58,7 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
    - Hỗ trợ CSS (hoặc SASS): TailwindCSS
    - Bộ icon: Fontawesome
    - Bộ animation động: Lottie
+   - Font chữ: Google Font
 
 > Bên trên là các Ví Dụ về các môi trường và thư viện trong từng yếu tố, bạn có thể tham khảo thêm một số thư viện khác tương tự, sao cho phù hợp với dự án của bạn.
 
