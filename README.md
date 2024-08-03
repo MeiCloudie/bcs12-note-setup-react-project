@@ -21,8 +21,8 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 
 1. Môi trường xây dựng cùng React:
 
-   - [NodeJS](https://nodejs.org/en)
-   - [Vite](https://vitejs.dev/)
+   - [NodeJS](https://nodejs.org/en) (v20.11.0)
+   - [Vite](https://vitejs.dev/) (Vite v5.3.4 & React v18.3.1)
 
 2. Version Control System - Dùng để lưu trữ Source Code:
 
@@ -36,28 +36,28 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 
 4. Route Management:
 
-   - React Router Dom
+   - React Router Dom (v6.26.0)
 
 5. State Management:
 
-   - Redux
-   - Redux Toolkit
+   - Redux (v9.1.2)
+   - Redux Toolkit (v2.2.7)
 
 6. HTTP Request:
 
    - API
-   - Axios
+   - Axios (v1.7.3)
 
 7. Form Management:
 
-   - Formik
-   - Yup
+   - Formik (v2.4.6)
+   - Yup (v1.4.0)
 
 8. Các thư viện hỗ trợ về UI:
-   - UI component library: Ant Design
-   - Hỗ trợ CSS (hoặc SASS): TailwindCSS
-   - Bộ icon: Fontawesome
-   - Bộ animation động: Lottie
+   - UI component library: Ant Design (v5.19.4)
+   - Hỗ trợ CSS (hoặc SASS): TailwindCSS (v3.4.7)
+   - Bộ icon: Fontawesome (v0.2.2)
+   - Bộ animation động: Lottie (v2.4.0)
    - Font chữ: Google Font
 
 > Bên trên là các Ví Dụ về các môi trường và thư viện trong từng yếu tố, bạn có thể tham khảo thêm một số thư viện khác tương tự, sao cho phù hợp với dự án của bạn.
