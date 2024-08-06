@@ -792,7 +792,7 @@ export default App
 
 - Nếu bạn ok với các Phiên Bản (Version) như trên, bạn có thể copy phần `dependencies`, `devDependencies` vào dự án của bạn. Sau đó chạy lệnh `npm i` để cập nhật các thư viện và package cần thiết.
 
-- Lưu ý: Vẫn phải cập nhật các code Provider hoặc các phần Import đặc trưng của từng package. Chứ KHÔNG phải chỉ tải các **dependencies** này là chạy được. Nhớ check lại từng đoạn Code mẫu bên trên để biết cách SetUp.
+- Lưu ý: Vẫn phải cập nhật các code Provider hoặc các phần Import đặc trưng của từng package. Chứ KHÔNG phải chỉ tải các **dependencies** này là chạy được. Nhớ check lại từng đoạn Code mẫu bên trên để biết cách Set-Up.
 
 - Source Code mẫu mình sẽ để ở Thư Mục `example-project` tại repo này nha!
 
@@ -801,3 +801,5 @@ export default App
 > README này sẽ còn Update thêm! Thấy hay thì liên hệ mình "ting ting" buy me a coffee nhooo ([Facebook Mei nè](https://www.facebook.com/ttvan1242/))
 
 # Yay Happy Coding ❤️
+
+_Author: Trương Thục Vân (MeiCloudie)_
