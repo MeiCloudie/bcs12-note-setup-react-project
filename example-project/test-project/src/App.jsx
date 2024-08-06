@@ -23,7 +23,7 @@ function App() {
     })
 
   return (
-    <>
+    <div className="font-poppins">
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <DatePicker />
       <FontAwesomeIcon icon={faBlog} />
@@ -38,7 +38,7 @@ function App() {
         <button onClick={notify}>Notify!</button>
         <ToastContainer />
       </div>
-    </>
+    </div>
   )
 }
 

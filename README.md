@@ -648,6 +648,94 @@ npm i react-toastify
 
 > Tham khảo tại: https://fkhadra.github.io/react-toastify/introduction/
 
+## Google Font
+
+- Bạn có thể chọn các font chữ tại [Google Font](https://fonts.google.com/).
+
+- Sau khi chọn được Font chữ ưng ý, ví dụ như font **"Poppins"**:
+
+  - Click chọn vào Font Poppins.
+  - Tại góc phải trên, click chọn nút **"Get font"**.
+  - Tại giao diện tiếp theo, các bạn nhớ kiểm tra số lượng "font family selected", cũng như xoá các font cũ không cần thiết.
+  - Sau đó click nút **"Get embed code"**.
+  - Copy phần link của font được chọn - Poppins. Ví dụ:
+    ```html
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    ```
+
+- Tiếp theo, cập nhật font chữ vào dự án:
+
+1. Tại tệp `index.html` cập nhật link font chữ vừa được copy vào phần thẻ **head**:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Chỉnh title ở đây nè -->
+    <title>React Test Project</title>
+
+    <!-- Google Font - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+```
+
+2. Tại tệp `tailwind.config.js` cập nhật thiết lập về font-family trong phần "extend":
+
+```js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    container: {
+      center: true,
+    },
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
+    },
+  },
+  plugins: [],
+}
+```
+
+3. Sử dụng thử font chữ tại `App.jsx`:
+
+```js
+function App() {
+  return (
+    <div className="font-poppins">
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur,
+        aspernatur molestiae. Repellat sequi iste dicta ipsum? Repellendus
+        similique quod fuga?
+      </p>
+    </div>
+  )
+}
+
+export default App
+```
+
 ## Complete Setup Package Json
 
 - Sau khi hoàn tất các bước trên, tệp `package.json` sẽ có cấu trúc tương đối như sau:

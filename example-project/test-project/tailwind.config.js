@@ -5,7 +5,11 @@ export default {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
