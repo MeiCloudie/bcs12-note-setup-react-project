@@ -15,6 +15,7 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 - [Fontawesome](#fontawesome)
 - [Lottie React](#lottie-react)
 - [React Toastify](#react-toastify)
+- [Google Font](#google-font)
 - [Complete Setup Package Json](#complete-setup-package-json)
 
 ## Overview
@@ -735,6 +736,8 @@ function App() {
 
 export default App
 ```
+
+> Tham khảo tại: https://tailwindcss.com/docs/font-family
 
 ## Complete Setup Package Json
 
