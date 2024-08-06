@@ -6,6 +6,7 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 - [React Vite](#react-vite)
 - [Git](#git)
 - [TailwindCSS](#tailwindcss)
+- [SASS](#sass)
 - [React Router Dom](#react-router-dom)
 - [Redux Toolkit](#redux-toolkit)
 - [Axios](#axios)
@@ -55,7 +56,7 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 
 8. Các thư viện hỗ trợ về UI:
    - UI component library: Ant Design (v5.19.4)
-   - Hỗ trợ CSS (hoặc SASS): TailwindCSS (v3.4.7)
+   - Hỗ trợ CSS: TailwindCSS (v3.4.7) và SASS (v1.77.8)
    - Bộ icon: Fontawesome (v0.2.2)
    - Bộ animation động: Lottie (v2.4.0)
    - Font chữ: Google Font
@@ -205,6 +206,38 @@ export default App
 - Lưu ý sử dụng trong **className** tại tag (không phải class).
 
 > Tham khảo tại: https://tailwindcss.com/docs/guides/vite
+
+## SASS
+
+1. Sử dụng câu lệnh tải package:
+
+```bash
+npm i sass
+```
+
+2. Nếu dự án của bạn muốn sử dụng SASS thì cần lưu ý cập nhật các tệp sau:
+
+   - Đổi tên đuôi tệp `index.css` thành `index.scss`
+   - Nếu có set-up 3 dòng import của Tailwind thì giữ nguyên, có chỉnh sửa gì thêm về SASS thì cứ tiếp tục triển khai bên dưới. Ví dụ tại `index.scss` có đoạn demo như sau:
+
+     ```scss
+     @tailwind base;
+     @tailwind components;
+     @tailwind utilities;
+
+     .container {
+       .demo_sass {
+         font-size: 20px;
+       }
+     }
+     ```
+
+   - Tại `main.jsx` cập nhật dòng import file `index.scss`:
+     ```js
+     import "./index.scss"
+     ```
+
+> Tham khảo tại: https://www.npmjs.com/package/sass
 
 ## React Router Dom
 
