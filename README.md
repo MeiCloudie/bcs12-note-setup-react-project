@@ -14,6 +14,7 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 - [Ant Design](#ant-design)
 - [Fontawesome](#fontawesome)
 - [Lottie React](#lottie-react)
+- [React Toastify](#react-toastify)
 - [Complete Setup Package Json](#complete-setup-package-json)
 
 ## Overview
@@ -60,6 +61,7 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
    - Bộ icon: Fontawesome (v0.2.2)
    - Bộ animation động: Lottie (v2.4.0)
    - Font chữ: Google Font
+   - Bộ hiển thị thông báo (Notification): React Toastify (v10.0.5)
 
 > Bên trên là các Ví Dụ về các môi trường và thư viện trong từng yếu tố, bạn có thể tham khảo thêm một số thư viện khác tương tự, sao cho phù hợp với dự án của bạn.
 
@@ -586,6 +588,66 @@ export default App
 
 > Tham khảo tại: https://www.npmjs.com/package/lottie-react
 
+## React Toastify
+
+1. Sử dụng câu lệnh tải package:
+
+```bash
+npm i react-toastify
+```
+
+2. Sử dụng thử phần noti của Toastify tại component `App.jsx`:
+
+   ```js
+   import { DatePicker } from "antd"
+   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+   import { faBlog } from "@fortawesome/free-solid-svg-icons"
+   import reactAnimation from "./assets/animation/reactAnimation.json"
+   import Lottie from "lottie-react"
+   // Import Toastify
+   import { Bounce, ToastContainer, toast } from "react-toastify"
+   import "react-toastify/dist/ReactToastify.css"
+
+   function App() {
+     // Manage Toastify
+     const notify = () =>
+       toast("🦄 Wow so easy!", {
+         position: "top-right",
+         autoClose: 5000,
+         hideProgressBar: false,
+         closeOnClick: true,
+         pauseOnHover: true,
+         draggable: true,
+         progress: undefined,
+         theme: "light",
+         transition: Bounce,
+       })
+
+     return (
+       <>
+         <h1 className="text-3xl font-bold underline">Hello world!</h1>
+         <DatePicker />
+         <FontAwesomeIcon icon={faBlog} />
+         <Lottie
+           animationData={reactAnimation}
+           loops
+           style={{ width: "100px", height: "100px" }}
+         />
+
+         {/* Demo Toastify */}
+         <div>
+           <button onClick={notify}>Notify!</button>
+           <ToastContainer />
+         </div>
+       </>
+     )
+   }
+
+   export default App
+   ```
+
+> Tham khảo tại: https://fkhadra.github.io/react-toastify/introduction/
+
 ## Complete Setup Package Json
 
 - Sau khi hoàn tất các bước trên, tệp `package.json` sẽ có cấu trúc tương đối như sau:
@@ -617,6 +679,8 @@ export default App
     "react-dom": "^18.3.1",
     "react-redux": "^9.1.2",
     "react-router-dom": "^6.26.0",
+    "react-toastify": "^10.0.5",
+    "sass": "^1.77.8",
     "yup": "^1.4.0"
   },
   "devDependencies": {
